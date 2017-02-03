@@ -1,0 +1,33 @@
+@font-face{
+    font-family: 'EVE Alpha', Verdana, Geneva, Tahoma, sans-serif;
+    src: url(fonts/eve.ttf);
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    
+}
+
+@media screen and (max-width:1366px) { 
+     body {
+        background-image: url(../img/background768.jpg);
+    }
+}
+@media screen and (max-width: 1280px) { 
+    body {
+         background-image: url(../img/background720.jpg);
+    }
+}
+.wrapper {
+    width: 960px;
+    height: 1500px;
+    margin: 0 auto;
+    background-color:rgba(0,0,0, 0.75);
+    border-radius: 3px;
+}
